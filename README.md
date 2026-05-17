@@ -47,6 +47,9 @@ Requirements: Linux kernel with HDA support (any recent mainline),
 `alsa-tools` (for `hda-verb`), `i2c-tools`, and `systemd`.
 
 ```bash
+# 0. Prepare steps
+sudo apt update && sudo apt install i2c-tools alsa-utils git -y
+
 # 1. Clone this repo
 git clone https://github.com/Dmitriy-Romanov/chuwi-corebook-x-left-speaker.git
 cd chuwi-corebook-x-left-speaker
