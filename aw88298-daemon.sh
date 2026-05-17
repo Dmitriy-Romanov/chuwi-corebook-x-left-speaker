@@ -26,9 +26,9 @@ VOL_OFFSET=10
 LAST_VOL="-1"
 
 # Absolute paths (required when running under systemd)
-HDAVERB=/usr/bin/hda-verb
-I2CSET=/usr/bin/i2cset
-I2CGET=/usr/bin/i2cget
+HDAVERB=hda-verb
+I2CSET=i2cset
+I2CGET=i2cget
 
 LAST_STREAM="0x0"
 LAST_FORMAT="0x0"

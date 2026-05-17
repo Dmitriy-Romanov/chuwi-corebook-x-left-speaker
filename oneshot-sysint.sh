@@ -17,7 +17,7 @@ set -u
 
 I2C_BUS=0
 I2C_ADDR=0x34
-I2CGET=/usr/bin/i2cget
+I2CGET=i2cget
 
 raw=$($I2CGET -y $I2C_BUS $I2C_ADDR 0x02 w 2>/dev/null) || {
     echo "ERROR: failed to read SYSINT" >&2
