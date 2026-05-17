@@ -48,7 +48,7 @@ Requirements: Linux kernel with HDA support (any recent mainline),
 
 ```bash
 # 1. Clone this repo
-git clone https://github.com/pacomont/chuwi-corebook-x-left-speaker.git
+git clone https://github.com/Dmitriy-Romanov/chuwi-corebook-x-left-speaker.git
 cd chuwi-corebook-x-left-speaker
 
 # 2. Install the daemon as a systemd service
